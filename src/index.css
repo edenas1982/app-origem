@@ -1,0 +1,162 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Cinzel:wght@400;700&display=swap');
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-nova: "Cinzel", serif;
+}
+
+:root {
+    --bg-color: #0c0d10;
+    --text-main: #ffffff;
+    --text-dim: #a0a0a0;
+    --accent: #e94a86;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.container { 
+    max-width: 1100px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
+
+.navbar { 
+    display: flex; 
+    justify-content: space-between; 
+    padding: 30px; 
+    align-items: center; 
+    border-bottom: 1px solid #222; 
+}
+
+.logo { 
+    font-weight: 800; 
+    letter-spacing: -1px; 
+    font-size: 1.5rem; 
+}
+
+.logo span { 
+    color: var(--accent); 
+}
+
+.hero { 
+    padding: 100px 0; 
+    text-align: center;
+}
+
+.hero h1 { 
+    font-size: 3.5rem; 
+    font-weight: 800; 
+    line-height: 1.1; 
+    margin-bottom: 20px; 
+    letter-spacing: -2px; 
+}
+
+.hero p { 
+    color: var(--text-dim); 
+    font-size: 1.2rem; 
+    max-width: 700px; 
+    margin: 0 auto 50px; 
+}
+
+.video-container { 
+    width: 100%; 
+    max-width: 800px; 
+    aspect-ratio: 16/9; 
+    background: #1a1b20; 
+    margin: 0 auto; 
+    border-radius: 20px;
+    border: 2px solid #2a2c35; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+    position: relative;
+    overflow: hidden;
+}
+
+.timeline { 
+    padding: 80px 20px; 
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.timeline h2 { 
+    text-align: center; 
+    font-size: 2.5rem; 
+    margin-bottom: 50px; 
+}
+
+.timeline-item { 
+    border-left: 2px solid var(--accent); 
+    padding-left: 30px; 
+    margin-bottom: 40px; 
+    text-align: left; 
+    position: relative;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -7px;
+    top: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--accent);
+}
+
+.logos-grid { 
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap;
+    gap: 40px; 
+    padding: 50px; 
+    opacity: 0.7; 
+    filter: grayscale(1); 
+}
+
+.logo-box { 
+    font-weight: bold; 
+    color: #444; 
+    font-size: 1.2rem;
+}
+
+.btn-pdf { 
+    background: var(--accent); 
+    color: white; 
+    border: none; 
+    padding: 12px 28px; 
+    border-radius: 50px; 
+    cursor: pointer; 
+    font-weight: bold; 
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.btn-pdf:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: var(--text-dim);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+    color: var(--text-main);
+}

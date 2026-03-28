@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Origem | Studio Inspirar</title>
+    <link rel="icon" type="image/png" href="/assets/images/favicon/favicomorigem.png" />
+    <script>
+      // Protect window.fetch from being overwritten by polyfills
+      (function() {
+        const originalFetch = window.fetch;
+        Object.defineProperty(window, 'fetch', {
+          get: function() { return originalFetch; },
+          set: function(v) { console.warn('Attempted to overwrite window.fetch ignored.'); },
+          configurable: false
+        });
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

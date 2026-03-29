@@ -377,11 +377,11 @@ function LandingPage() {
       badgeText: "COLETIVO PLURAL",
       icon: "Users",
       slides: [
-        { url: "/assets/images/fase3/img1.jpeg", caption: "A Triagem: Parceria com a diretoria para selecionar protagonistas." },
-        { url: "/assets/images/fase3/img2.jpeg", caption: "O Coletivo Plural: Formação oficial com equidade." },
-        { url: "/assets/images/fase3/img3.jpeg", caption: "União de Estereótipos: A diversidade transformada em força." },
-        { url: "/assets/images/fase3/img4.jpeg", caption: "Equidade em Foco: 5 moças e 5 rapazes unidos." },
-        { url: "/assets/images/fase3/img5.jpeg", caption: "Nascimento do Projeto: O talento jovem assume o controle." }
+        { url: "/assets/images/fase3/img1.webp", caption: "A Triagem: Parceria com a diretoria para selecionar protagonistas." },
+        { url: "/assets/images/fase3/img2.webp", caption: "O Coletivo Plural: Formação oficial com equidade." },
+        { url: "/assets/images/fase3/img3.webp", caption: "União de Estereótipos: A diversidade transformada em força." },
+        { url: "/assets/images/fase3/img4.webp", caption: "Equidade em Foco: 5 moças e 5 rapazes unidos." },
+        { url: "/assets/images/fase3/img5.webp", caption: "Nascimento do Projeto: O talento jovem assume o controle." }
       ]
     },
     {
@@ -392,10 +392,10 @@ function LandingPage() {
       badgeText: "MENTORIA ATIVA",
       icon: "Clapperboard",
       slides: [
-        { url: "/assets/images/fase4/img1.jpeg", caption: "Mentoria Ativa: O Agente Cultural guiando o domínio técnico." },
-        { url: "/assets/images/fase4/img2.jpeg", caption: "Movimento e Fluidez: Estabilização de imagem em padrão de elite." },
-        { url: "/assets/images/fase4/img3.jpeg", caption: "Padrão de Mercado: Criação de conteúdo de qualidade superior." },
-        { url: "/assets/images/fase4/img4.jpeg", caption: "Potencial Revelado: Tecnologia de alto impacto." }
+        { url: "/assets/images/fase4/img1.webp", caption: "Mentoria Ativa: O Agente Cultural guiando o domínio técnico." },
+        { url: "/assets/images/fase4/img2.webp", caption: "Movimento e Fluidez: Estabilização de imagem em padrão de elite." },
+        { url: "/assets/images/fase4/img3.webp", caption: "Padrão de Mercado: Criação de conteúdo de qualidade superior." },
+        { url: "/assets/images/fase4/img4.webp", caption: "Potencial Revelado: Tecnologia de alto impacto." }
       ]
     },
     {
@@ -440,7 +440,7 @@ function LandingPage() {
       name: "SEC. CULTURA",
       description: "Gestão estratégica e curadoria do edital cultural.",
       url: "https://santoaugusto.rs.gov.br/politica-nacional-aldir-blanc-pnab/",
-      logo: "/assets/images/logos/cultura/logo.jpeg",
+      logo: "/assets/images/logos/cultura/logo.webp",
       isInternal: false
     },
     {

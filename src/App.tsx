@@ -348,10 +348,10 @@ function LandingPage() {
       badgeText: "PARCERIA MUNICIPAL",
       icon: "Handshake",
       slides: [
-        { url: "/assets/images/fase1/img1.png", caption: "Equipamento de cinema line como ferramenta de transformação." },
-        { url: "/assets/images/fase1/img2.png", caption: "Imersão tecnológica: Jovens dominando a linguagem visual." },
-        { url: "/assets/images/fase1/img3.png", caption: "Precisão técnica: A democratização do acesso a ferramentas de elite." },
-        { url: "/assets/images/fase1/img4.png", caption: "Ecossistema real: O Studio Inspirar como palco do protagonismo jovem." }
+        { url: "/assets/images/fase1/img1.webp", caption: "Equipamento de cinema line como ferramenta de transformação." },
+        { url: "/assets/images/fase1/img2.webp", caption: "Imersão tecnológica: Jovens dominando a linguagem visual." },
+        { url: "/assets/images/fase1/img3.webp", caption: "Precisão técnica: A democratização do acesso a ferramentas de elite." },
+        { url: "/assets/images/fase1/img4.webp", caption: "Ecossistema real: O Studio Inspirar como palco do protagonismo jovem." }
       ]
     },
     {
@@ -362,11 +362,11 @@ function LandingPage() {
       badgeText: "ENGENHARIA DE ACESSO",
       icon: "Globe",
       slides: [
-        { url: "/assets/images/fase2/img1.png", caption: "Logística do Acesso: O desembarque de um ecossistema de elite." },
-        { url: "/assets/images/fase2/img2.png", caption: "Engajamento Técnico: A quebra da barreira financeira." },
-        { url: "/assets/images/fase2/img3.png", caption: "Política Pública Tangível." },
-        { url: "/assets/images/fase2/img4.png", caption: "Ferramenta de Pertencimento." },
-        { url: "/assets/images/fase2/img5.png", caption: "Mentoria Técnica." }
+        { url: "/assets/images/fase2/img1.webp", caption: "Logística do Acesso: O desembarque de um ecossistema de elite." },
+        { url: "/assets/images/fase2/img2.webp", caption: "Engajamento Técnico: A quebra da barreira financeira." },
+        { url: "/assets/images/fase2/img3.webp", caption: "Política Pública Tangível." },
+        { url: "/assets/images/fase2/img4.webp", caption: "Ferramenta de Pertencimento." },
+        { url: "/assets/images/fase2/img5.webp", caption: "Mentoria Técnica." }
       ]
     },
     {
@@ -406,11 +406,11 @@ function LandingPage() {
       badgeText: "REALIZAÇÃO CÊNICA",
       icon: "Camera",
       slides: [
-        { url: "/assets/images/fase5/img1.png", caption: "Realização Cênica: Domínio total de luz e enquadramento." },
-        { url: "/assets/images/fase5/img2.png", caption: "Legado Sonoro: Pós-produção de áudio profissional." },
-        { url: "/assets/images/fase5/img3.png", caption: "Look & Feel: Aplicação técnica de Color Grading." },
-        { url: "/assets/images/fase5/img4.png", caption: "Gravação dos episódios oficiais com padrão cinematográfico." },
-        { url: "/assets/images/fase5/img5.png", caption: "Ação e Precisão: Monitoramento de qualidade em tempo real." }
+        { url: "/assets/images/fase5/img1.webp", caption: "Realização Cênica: Domínio total de luz e enquadramento." },
+        { url: "/assets/images/fase5/img2.webp", caption: "Legado Sonoro: Pós-produção de áudio profissional." },
+        { url: "/assets/images/fase5/img3.webp", caption: "Look & Feel: Aplicação técnica de Color Grading." },
+        { url: "/assets/images/fase5/img4.webp", caption: "Gravação dos episódios oficiais com padrão cinematográfico." },
+        { url: "/assets/images/fase5/img5.webp", caption: "Ação e Precisão: Monitoramento de qualidade em tempo real." }
       ]
     },
     {
@@ -422,7 +422,7 @@ function LandingPage() {
       icon: "Star",
       specialLayout: true,
       slides: [
-        { url: "/assets/images/fase6/img1.png", caption: "O Ápice: O projeto ORIGEM celebrando o legado cultural." }
+        { url: "/assets/images/fase6/img1.webp", caption: "O Ápice: O projeto ORIGEM celebrando o legado cultural." }
       ]
     }
   ];
@@ -454,7 +454,7 @@ function LandingPage() {
       name: "STUDIO INSPIRAR",
       description: "Núcleo de criação e produção audiovisual do projeto.",
       url: "/studio",
-      logo: "/assets/images/logos/inspirar/logo.png",
+      logo: "/assets/images/logos/inspirar/logo.webp",
       isInternal: true
     }
   ];
@@ -528,7 +528,7 @@ function LandingPage() {
               >
                 {/* Thumbnail de Alta Fidelidade */}
                 <img 
-                  src="/assets/images/player/thumbnail.png" 
+                  src="/assets/images/player/thumbnail.webp" 
                   alt="Assista o vídeo" 
                   className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 bg-zinc-900"
                   referrerPolicy="no-referrer"
